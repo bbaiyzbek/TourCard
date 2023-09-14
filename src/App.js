@@ -1,11 +1,13 @@
 import React from "react";
 import {Route, Routes} from "react-router-dom";
-import TourCard from "./components/Tour-Card/TourCard";
+import FavPage from "./pages/FavPage";
+import TourPage from "./pages/TourPage";
 
 function App() {
   return (
       <Routes>
-        <Route path={'/'} element={<TourCard/>}/>
+        <Route path={'/'} element={<TourPage/>}/>
+        <Route path={'/favs'} element={<FavPage/>}/>
       </Routes>
   );
 }
