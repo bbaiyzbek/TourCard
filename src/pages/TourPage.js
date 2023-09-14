@@ -1,20 +1,25 @@
 import React, {useEffect, useState} from 'react';
-import axios from "axios";
 import TourCard from "../components/Tour-Card/TourCard";
+import axios from "axios";
+import {useDispatch, useSelector} from "react-redux";
+import {getTours} from "../redux/actions/TourAction";
+import {Link} from "react-router-dom";
 
 const TourPage = () => {
-    const [tours, setTours] = useState([])
+    // const [tours, setTours] = useState([])
+    const dispatch = useDispatch()
 
-    console.log(tours)
+    const tours = useSelector(state => state.tour.tour)
 
     useEffect(() => {
-        axios('https://64f4a858932537f4051a935c.mockapi.io/tour')
-            .then(({data}) => {
-                setTours(data)
-            })
+        dispatch(getTours())
     }, [])
+
+
+
     return (
         <div>
+            <Link to={'/favs'}>favs</Link>
             <TourCard tours={tours}/>
         </div>
     );

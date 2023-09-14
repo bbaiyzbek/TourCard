@@ -4,7 +4,6 @@ import imgTour from './assets/image 481 (1).png'
 import imgUser from './assets/unsplash_LaK153ghdig.png'
 import style from './TourCard.module.css'
 import LikeBtn from "../Like-Button/LikeBtn";
-import {Link} from "react-router-dom";
 import EkoIcon from "../icons/ekoIcon";
 import StarIcon from "../icons/StarIcon";
 import InfoIcon from "../icons/infoIcon";
@@ -14,7 +13,7 @@ const TourCard = ({tours}) => {
 
     return (
         <div className={style.container}>
-            <Link to={'/favs'}>favs</Link>
+
             <div className={style.row}>
 
                 {

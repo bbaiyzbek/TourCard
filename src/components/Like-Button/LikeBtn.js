@@ -7,8 +7,7 @@ import DislikeIcon from "../icons/DislikeIcon";
 
 const LikeBtn = ({tour}) => {
     const dispatch = useDispatch()
-
-    console.log(tour)
+    
     const handleEditFavorite = (object) => {
         if (object.like) {
             const new_value = {...object, like: false}
