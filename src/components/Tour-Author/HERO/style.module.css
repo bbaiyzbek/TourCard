@@ -1,0 +1,69 @@
+.heroWrap {
+    position: relative;
+    max-width: 1042px;
+    max-height: 561px;
+    margin: 120px 58px 40px 80px;
+}
+
+.title{
+    max-width: 744px;
+    margin-left: 64px;
+    /*padding-right: 220px;*/
+}
+
+.title h1 {
+    font-size: 87px;
+    line-height: 81px;
+}
+
+.groupImg {
+    position: absolute;
+    right: 145px;
+    top: -113px;
+}
+.greenBtnWrap{
+    position: absolute;
+    right: 204px;
+    top: 370px;
+    transform: rotate(-0.02turn);
+
+}
+
+span{
+    color: #FE7A00;
+}
+
+.desc1{
+    font-size: 20px;
+    background-color: #F7F7F7;
+    border-radius: 30px;
+    padding: 25px;
+    width: 236px;
+    transform: rotate(0.02turn);
+    position: absolute;
+    right: 10px;
+    top: 90px;
+}
+.desc1 p{
+    opacity: 60%;
+}
+.desc2{
+    font-size: 20px;
+    background-color: #F7F7F7;
+    border-radius: 30px;
+    padding: 25px;
+    max-width: 307px;
+    position: absolute;
+    right: 220px;
+    bottom: 25px;
+    transform: rotate(-0.02turn);
+}
+
+.desc2 p{
+    opacity: 60%;
+}
+
+.leftArrow{
+    position: absolute;
+
+}

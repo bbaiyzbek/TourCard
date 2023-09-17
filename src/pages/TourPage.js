@@ -4,6 +4,7 @@ import axios from "axios";
 import {useDispatch, useSelector} from "react-redux";
 import {getTours} from "../redux/actions/TourAction";
 import {Link} from "react-router-dom";
+import TourAuthorPage from "./TourAuthorPage";
 
 const TourPage = () => {
     // const [tours, setTours] = useState([])
@@ -18,9 +19,12 @@ const TourPage = () => {
 
 
     return (
-        <div>
-            <Link to={'/favs'}>favs</Link>
+        <div className={'container'}>
+            <Link to={'/favs'}><button>Favs Page</button></Link>
+            <Link to={'/tour-author'}><button>Tour Author Page</button></Link>
             <TourCard tours={tours}/>
+
+
         </div>
     );
 };

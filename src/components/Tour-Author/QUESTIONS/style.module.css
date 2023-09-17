@@ -1,0 +1,19 @@
+.titleWrap{
+    margin-bottom: 40px;
+    margin-top: 147px;
+    position: relative;
+}
+
+.emoji1{
+    position: absolute;
+    top: -99px;
+    right: 444px;
+}
+
+.emoji2{
+    position: absolute;
+    top: -46px;
+    right: 520px;
+}
+
+
