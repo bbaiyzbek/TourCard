@@ -15,7 +15,6 @@ const TourCard = ({tours}) => {
         <div className={style.container}>
 
             <div className={style.row}>
-
                 {
                     tours.map((tour, idx) => {
                         return (

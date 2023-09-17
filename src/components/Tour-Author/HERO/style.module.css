@@ -1,14 +1,14 @@
 .heroWrap {
     position: relative;
     max-width: 1042px;
-    max-height: 561px;
-    margin: 120px 58px 40px 80px;
+    min-height: 561px;
+    margin: 120px auto -70px auto;
+
 }
 
 .title{
     max-width: 744px;
-    margin-left: 64px;
-    /*padding-right: 220px;*/
+    margin-left: 62px;
 }
 
 .title h1 {
@@ -20,6 +20,7 @@
     position: absolute;
     right: 145px;
     top: -113px;
+    z-index: 999;
 }
 .greenBtnWrap{
     position: absolute;
@@ -41,8 +42,8 @@ span{
     width: 236px;
     transform: rotate(0.02turn);
     position: absolute;
-    right: 10px;
-    top: 90px;
+    right: 0;
+    top: 69px;
 }
 .desc1 p{
     opacity: 60%;
@@ -55,7 +56,7 @@ span{
     max-width: 307px;
     position: absolute;
     right: 220px;
-    bottom: 25px;
+    bottom: 195px;
     transform: rotate(-0.02turn);
 }
 
@@ -65,5 +66,12 @@ span{
 
 .leftArrow{
     position: absolute;
+    left: 460px ;
+    bottom: 160px;
+}
 
+.RightArrow{
+    position: absolute;
+    right: 145px;
+    bottom: 200px;
 }

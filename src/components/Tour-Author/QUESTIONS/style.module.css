@@ -16,4 +16,18 @@
     right: 520px;
 }
 
+.dropdownWrapper{
+    max-width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dropdownCol{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    padding: 10px;
+}
 
